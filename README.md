@@ -8,5 +8,10 @@ Some samples to test some resources from this REST API.
 
 ## How to run?
 You either have two options:
+
 1. Execute from console `npm test`
 2. Or, execute from console `grunt mochaTest` (please note that `node_modules/.bin/` should be in your `PATH`)
+
+Following is an example of the output:
+
+![alt tag](https://raw.githubusercontent.com/leo-fcx/revsw-api-test/master/results/results.png)
