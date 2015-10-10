@@ -1,0 +1,31 @@
+
+[0m[0m
+[0m  Functional tests[0m
+[0m    Activity resource[0m
+[0m      Detailed info[0m
+[2K[0G      [32m  ✓[0m[90m should return "target" information when adding new domain[0m[31m (1206ms)[0m
+[2K[0G      [32m  ✓[0m[90m should not return data in a period in which there was not any activity[0m[31m (605ms)[0m
+[0m      Summary info[0m
+[2K[0G      [32m  ✓[0m[90m should increase "amount" field when adding new domain[0m[31m (1138ms)[0m
+[2K[0G      [32m  ✓[0m[90m should not return data in a period in which there was not any activity[0m[31m (522ms)[0m
+
+[0m  Sanity tests[0m
+[0m    Activity resource[0m
+[0m      Detailed info[0m
+[2K[0G      [32m  ✓[0m[90m should return "target_object" with correct schema[0m[31m (705ms)[0m
+[0m      Summary info[0m
+[2K[0G      [32m  ✓[0m[90m should return "activity_type" as string[0m[31m (530ms)[0m
+[2K[0G      [32m  ✓[0m[90m should return "amount" as number greather or equal to 0[0m[31m (557ms)[0m
+
+[0m  Smoke tests[0m
+[0m    Activity resource[0m
+    [36m  - should not run this commentted spec[0m
+[0m      Detailed info[0m
+[2K[0G      [32m  ✓[0m[90m should return detailed information about all activities[0m[31m (583ms)[0m
+[0m      Summary info[0m
+[2K[0G      [32m  ✓[0m[90m should return summary information[0m[31m (555ms)[0m
+
+
+[92m [0m[32m 9 passing[0m[90m (8s)[0m
+[36m [0m[36m 1 pending[0m
+
