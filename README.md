@@ -1,5 +1,5 @@
-# REVSW API test
-Some samples to test some resources from this REST API.
+# API testing
+Some samples to test some resources from REST APIs.
 
 ## How to set up?
 1. Clone the project
